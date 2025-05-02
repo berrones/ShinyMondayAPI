@@ -6,7 +6,7 @@ This is a Shiny application that provides a user-friendly contact form integrate
 - **Form Inputs**: Users can enter their name, email, and message.
 - **Validation**: Ensures all fields are filled, validates name for valid characters, and checks that the message is not empty.
 - **Monday.com Integration**: Submits form data to a specified Monday.com board using the API.
-- **Responsive UI**: Built with Bootstrap 5 (`pulse` theme) for a modern, mobile-friendly interface.
+- **Responsive UI**: Built with Bootstrap 5 for a modern, mobile-friendly interface.
 - **Status Feedback**: Displays real-time submission status with success or error messages.
 - **Clear Form**: Allows users to reset the form with a single click.
 
