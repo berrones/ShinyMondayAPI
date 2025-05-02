@@ -42,7 +42,7 @@ To run this application, you need the following:
      Sys.setenv(api_token = "your_monday_api_token")
      Sys.setenv(board_id = "your_monday_board_id")
      ```
-   - Or, in the app code, ensure the following lines are included before the server function to retrieve the environment variables:
+   - Or, in the app code, ensure the following lines are included before the server function to retrieve the environment variables (from file .Renviron that should be in the project root):
      ```R
      api_token <- Sys.getenv("api_token")
      board_id <- Sys.getenv("board_id")
