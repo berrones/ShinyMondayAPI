@@ -2,6 +2,8 @@
 
 This is a Shiny application that provides a user-friendly contact form integrated with Monday.com's API to submit user information and messages. The app features a responsive design using Bootstrap 5 (via `bslib`) and includes form validation, submission status updates, and a clear form functionality.
 
+![Demo of Shiny Contact Form App](www/demo.png)
+
 ## Features
 - **Form Inputs**: Users can enter their name, email, and message.
 - **Validation**: Ensures all fields are filled, validates name for valid characters, and checks that the message is not empty.
